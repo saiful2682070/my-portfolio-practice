@@ -1,0 +1,112 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+/* Shared Design */
+.btn{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+/* Header Design */
+
+.header{
+    background-image: url('../images/developer.png') ,url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    background-color: #FFF8F3;
+    position: relative;
+}
+
+/* Design nav */
+.header_nav{
+    margin: 0px 226px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.title_name{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800px;
+}
+.title_name_design{
+    color: #FD6E0A;
+}
+
+.nav_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_list li{
+    list-style: none;
+    margin-right: 51px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+.nav_list li a{
+    text-decoration: none;
+    color: #474747;
+}
+
+/* Design banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner_content{
+    margin: 0px 0px 0px 230px;
+    max-width: 585px;
+}
+.portfolio_profile_pic{
+    width: 584px;
+    height: 676px;
+    margin-right: 38px;
+    margin-bottom: 0;
+}
+.banner_greetings{
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+}
+.banner_title{
+    font-size: 85px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.banner_des{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.btn_contact{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #FD6E0A;;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 18px 35px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid #FD6E0A;;
+}
