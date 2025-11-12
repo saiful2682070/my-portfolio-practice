@@ -11,6 +11,7 @@
     margin: 0 0;
     padding: 0 0;
 }
+
 /* Shared Design */
 .btn{
     font-size: 20px;
@@ -23,6 +24,20 @@
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
 }
+
+.about_name{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    padding: 8px;
+}
+
+.about_description{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #757575;
+    line-height: 30px;
+}
 /* Header Design */
 
 .header{
@@ -31,6 +46,7 @@
     background-position: left top, right bottom;
     background-color: #FFF8F3;
     position: relative;
+    margin-bottom: 130px;
 }
 
 /* Design nav */
@@ -102,11 +118,150 @@
 .btn_contact{
     margin-left: 30px;
     font-size: 20px;
-    color: #FD6E0A;;
+    color: #FD6E0A;
     font-weight: bold;
     border-radius: 5px;
     padding: 18px 35px;
     cursor: pointer;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     border: 2px solid #FD6E0A;;
+}
+
+/* About design */
+
+.about{
+    margin: 0px 230px 130px 230px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 131px 156px 131px 156px;
+}
+.about_content{
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px solid  #FD6E0A;
+    padding: 10px;
+}
+
+.about_details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.about_details_heading{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #757575;
+}
+.about_details_info{
+    font-size: 20px;
+    font-weight: mixed;
+    color: #474747;
+}
+
+/* Design Skills */
+.skills{
+    margin: 0px 230px 130px 230px;
+}
+.skills_title{
+    text-align: center;
+    margin: 0px 115px 50px 115px;
+}
+.skill_title_heading{
+    padding: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.skill_description{
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400px;
+    line-height: 30px;
+}
+
+.skills_name{
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.skills_content{
+    padding: 30px;
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.6);
+    margin-right: 24px;
+}
+.skill_photo{
+    height: 44px;
+    width: 44px;
+    margin-bottom: 30px;
+}
+.skill_icon_heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.skill_icon_description{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 28px;
+}
+
+/* Design Summary */
+.summary{
+    margin: 0px 230px 113px 230px;
+}
+.summary_main_title{
+    text-align: center;
+    margin-bottom: 113px;
+}
+.summary_title_content{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.education_main_title{
+    margin-bottom: 30px;
+}
+.education_title_content{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.edu_des_title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.edu_des_sub_title{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+.education_description{
+    font-size: 16px;
+    color: #757575;
+    font-weight: 400px;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+.education_description_content{
+    margin-top: 10px;
+    border-bottom: 1px solid #FD6E0A;
+}
+.education_experience{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.education{
+    margin: 0px 25px 0px 25px;
+}
+.download_cv{
+    text-align: center;
 }
